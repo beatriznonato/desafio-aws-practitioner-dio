@@ -1,4 +1,4 @@
-# Desafio AWS Practitioner DIO - Arquiteturas Simples
+# Desafio AWS Practitioner DIO
 
 Este repositório apresenta dois exemplos práticos de arquiteturas AWS comuns no mercado financeiro, abordando tanto armazenamento seguro quanto automação de processamento. A proposta é documentar, de forma clara e objetiva, como esses fluxos funcionam e porque são utilizados.
 
@@ -19,7 +19,7 @@ Este fluxo simula um ambiente em que analistas ou clientes enviam documentos (co
 5. **Download:** O arquivo pode ser baixado pelo cliente ou analista, sempre que necessário, garantindo disponibilidade controlada.
 
 **Diagrama:**  
-![Diagrama EC2-EBS](./images/diagrama-ec2-ebs.png)
+![Diagrama EC2-EBS](images/diagrama-ec2-ebs.png)
 
 **Vantagens desse padrão:**
 
@@ -43,7 +43,7 @@ Este fluxo mostra uma automação muito comum em bancos e fintechs: quando clien
 4. **Notificação/Processamento:** Lambda pode enviar notificações via SNS, gravar logs, retornar integrações ou registrar as ações processadas.
 
 **Diagrama:**  
-![Diagrama S3-Lambda](./images/diagrama-s3-lambda.png)
+![Diagrama S3-Lambda](images/diagrama-s3-lambda.png)
 
 **Vantagens desse padrão:**
 
